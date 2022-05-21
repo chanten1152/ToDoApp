@@ -16,9 +16,27 @@ body,html{
   height: 2rem;
 }
 
+.task_heading{
+  position: relative;
+  /* padding-bottom: 50px; */
+}
+
+.task_name{
+  /* position: absolute; */
+  padding-left:1rem;
+  margin-right: 100px;
+  font-weight: bold;
+}
+.task_date{
+  /* position: absolute; */
+  margin-right: 100px;
+  font-weight: bold;
+}
+
 #table{
-  background-color: papayawhip;
-  width: 50%;
+  background-color: #f5fffa;
+  border: 1px solid #afeeee;
+  width: 60%;
   border-radius: 1rem;
   margin-top: 2rem;
   padding-bottom: 10px;
